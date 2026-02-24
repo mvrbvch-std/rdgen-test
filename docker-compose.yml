@@ -5,9 +5,9 @@ services:
     restart: unless-stopped
     environment:
       SECRET_KEY: "django-insecure-!(t-!f#6g#sr%yfded9(xha)g+=!6craeez^cp+*&bz_7vdk61"
-      GHUSER: "github_username"
-      GHBEARER: "github_access_token"
-      GENURL: "accessible_url_of_server"
+      GHUSER: "mvrbvch-std"
+      GHBEARER: "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"
+      GENURL: "http://localhost:5000"
       PROTOCOL: "https"
       REPONAME: "rdgen"
     ports:
